@@ -1,4 +1,7 @@
 # quadruped-simulink
+
+Following repo has built and tested on MATLAB R2019b
+
 Simscape Multibody simulation of a spider quadruped with 12 DOF
 
 Run the startup_sm_ssci.m inside Libraries directory to initialise simscape multibody multiphysics library

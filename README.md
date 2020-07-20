@@ -1,6 +1,6 @@
 # quadruped-simulink
 
-Following repo has built and tested on MATLAB R2019b
+Following repo is built and tested on MATLAB R2019b
 
 v1.0- Basic Model has correct kinematics and frames
 

@@ -2,7 +2,9 @@
 
 Following repo has built and tested on MATLAB R2019b
 
-v1.0- Basic Model has correct kinematics and frames, refined dynamics and control will be added later
+v1.0- Basic Model has correct kinematics and frames
+
+Refined dynamics and control will be added later
 
 Simscape Multibody simulation of a spider quadruped with 12 DOF
 

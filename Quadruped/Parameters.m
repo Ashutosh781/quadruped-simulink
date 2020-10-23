@@ -45,7 +45,7 @@ h = l3_orig + l2 * sind(target2r) + 0.05;
 %h = 0.25
 
 %% Predifened & Common
-g = 9.8;
+g = 9.8066;
 iden3 = eye(3);
 E = zeros(6,6);
 E(1:3,1:3) = iden3;

@@ -18,10 +18,13 @@ l3 = l3_orig-r;
 motion_time_constant = 0.01; %In sec Filter time
 spring_stiff = 1; %In N*m/rad
 damping = 0.01; %In N*m/(rad/s)
-gait_time = 0.8; %In sec
 
-%%
-%Motor Targets
+%% Need to adjust and optimize these
+gait_time = 2; %In sec
+step_time = gait_time/2;
+step_height = 0.1; %In m
+
+%% Motor Targets
 %In deg
 target1 = 0;
 target2 = 30;
@@ -30,8 +33,7 @@ target3 = -120;
 target3r = 120;
 buffer = 8000;
 
-%%
-%Contact
+%% Contact
 
 stiff = 1e6; %N/m
 damp = 1e3; %N/(m/s)
@@ -39,8 +41,7 @@ u_s = 0.5;
 u_k = 0.3;
 critical_vel = 1e-3; %m/s
 
-%%
-%COM Height in m
+%% COM Height in m
 h = l3_orig + l2 * sind(target2r) + 0.05;
 %h = 0.25
 
@@ -51,6 +52,7 @@ E = zeros(6,6);
 E(1:3,1:3) = iden3;
 p = [0;0;1;0;0;0];
 
+%% IGNORE FOR NOW THE BELOW PART
 %% Module 0 = Body
 
 % N0 = P0 = [L0 0; 0 1] (6x6) Find L0 (3x3)

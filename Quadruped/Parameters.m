@@ -20,7 +20,7 @@ spring_stiff = 1; %In N*m/rad
 damping = 0.01; %In N*m/(rad/s)
 
 %% Need to adjust and optimize these
-gait_time = 2; %In sec
+gait_time = 0.8; %In sec
 step_time = gait_time/2;
 step_height = 0.1; %In m
 

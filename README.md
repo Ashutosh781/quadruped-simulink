@@ -14,8 +14,14 @@ After cloning run the Quadruped_1.slx file
 
 Required Add ons in MATLAB R2019b are Simulink,Simscape,Simscape Multibody
 
-Algorithms:
+<br>
+
+## Algorithm
 
 Dijkstra path planning and a map for it work on
 
 Fastslam 2 for localisation
+
+<br>
+
+*Currently this repo is not being built further, might make changes in future.*

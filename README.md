@@ -16,7 +16,7 @@ Required Add ons in MATLAB R2019b are Simulink,Simscape,Simscape Multibody
 
 <br>
 
-## Algorithm
+## Algorithm (not tested)
 
 Dijkstra path planning and a map for it work on
 

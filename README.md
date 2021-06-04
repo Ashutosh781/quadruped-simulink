@@ -2,7 +2,7 @@
 
 Following repo contains a very basic Simulink model of a spider legged quadruped which is built and tested on MATLAB R2019b.
 
-v1.0- Basic Model has correct kinematics and frames
+v1.0- Basic Model has correct kinematics and frames and basic walking.
 
 Refined dynamics and control will be added later
 
@@ -12,7 +12,7 @@ Run the startup_sm_ssci.m inside Libraries directory to initialise simscape mult
 
 After cloning run the Quadruped_1.slx file
 
-Required Add ons in MATLAB R2019b are Simulink,Simscape,Simscape Multibody
+Required Add ons in MATLAB R2019b are Simulink,Simscape,Simscape Multibody.
 
 <br>
 
